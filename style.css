@@ -1,0 +1,299 @@
+body{
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+/*header css*/
+header{
+  height:13.438em;
+  width: 100%;
+}
+.top-bar{
+    height: 3.5em;
+    background: #573c27;
+}
+.dropdown{
+  float: left;
+  margin: 1% 0 0 10%;
+}
+.dropdown button{
+  background: none;
+  border: none;
+}
+.top-right{
+ float: right;
+ margin: 0 12% 0 0;
+}
+.top-right li a{
+   color: #fff;
+}
+#middle-top{
+    height: 10.313em;
+    margin: 0 auto;
+}
+#logo{
+    margin: 2% 0 0 10%;
+}
+#time{
+    margin: 2% 0 0 2%;
+}
+#time span{
+    vertical-align: 0.3em;
+}
+#search{
+    margin: 1.3% 0 0 5%;
+    width: 22em;
+}
+.input-group{
+    width: 25em;
+}
+#basic-addon1{
+    background: #e05b5b;
+}
+#shop-cart {
+    width: 24em;
+    margin: 1.3% 0 0 0;
+}
+/* navigation */
+nav{
+    margin: 0 0 5% 10%;
+    width: 80%;
+    background-color: none;
+    border-color: none;
+    border-bottom: 3px solid #e05b5b;
+}
+ .menu li a{
+    color: #573c27;
+    font: 1em 'Montserrat', sans-serif;
+}
+.menu li a:hover{
+    background: #e05b5b;
+    color: #fff;
+}
+/* slider */
+#myCarousel{
+    height: 33.125em;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.well{
+    background-color: #fff;
+    border: none;
+}
+.block-1, .block-2, .block-3, .block-4,.block-5{
+    position: relative;
+    width: 10.625em;
+    height: 19.625em;
+    margin: 4% 3% 2% 0;
+}
+.price{
+    background: #f6eddc;
+    width: 12.1em;
+}
+.price p{
+    text-align: center;
+    padding: 1% 0 0 0;
+}
+.add-to-cart{
+    display: block;
+    background: #8cb273;
+    width: 12.1em;
+    height: 3em;
+    text-align: center;
+    color: #fff;
+    padding: 0 0 0 1%;
+}
+.block-1 a img{
+    position: absolute;
+    top: 0;
+    left: 85%;
+}   
+ .block-2 a img{
+    position: absolute;
+    top: 0;
+    left: 85%;
+}   
+.block-3 a img{
+    position: absolute;
+    top: 0;
+    left: 85%;
+} 
+.block-4 a img{
+    position: absolute;
+    top: 0;
+    left: 85%;
+} 
+.block-5 a img{
+    position: absolute;
+    top: 0;
+    left: 85%;
+} 
+.carousel-control{
+    width: 4%;
+    padding-top: 8%;
+}
+.carousel-control.left{
+   background-image:  none;
+}
+.carousel-control.right{
+   background-image:  none;
+}
+/* part 2 */
+.title-blog{
+    background-color: #f6eddc;
+    height: 2.813em;
+    width: 27em;
+    padding: 1% 0 0 3%;
+    color: #948272;
+    text-align: center;
+}
+.title-blog span{
+    font-size: 1.813em;
+}
+.title-right{
+    background-color: #f6eddc;
+    width: 54em;
+    height: 2.813em;
+    padding: 0.5% 0 0 3%;
+    color: #948272;
+}
+.title-right span{
+  font-size: 1.813em;
+}
+.banner{
+    position: relative;
+    margin-right: 4%;
+}
+.banner-info{
+    position: absolute;
+    top: 32%;
+    left: 5%;
+}
+.banner-button{
+    position: absolute;
+    bottom: 1%;
+    left: 4%;
+    background: #88af6f;
+    width: 96%;
+    padding: 1% 0 0 15%;
+    font-size: 2em;
+}
+.banner-button a{
+    color: #fff;
+}
+.blog-01, .blog-02, .blog-03,
+.blog-04{
+    padding-bottom: 1%;
+    border-bottom: 0.3em dotted #e3e3e3;
+}
+.blog-01 img{
+    padding-top: 2%;
+}
+.blog-01 p{
+    float: right;
+    width: 90%;
+    padding: 1.8% 4% 0 0;
+    line-height: 1.3em;
+}
+.blog-02 img{
+    padding-top: 2%;
+}
+.blog-02 p{
+    float: right;
+    width: 90%;
+    padding: 1.8% 4% 0 0;
+    line-height: 1.3em;
+}
+.blog-03 img{
+    padding-top: 2%;
+}
+.blog-03 p{
+    float: right;
+    width: 90%;
+    padding: 1.8% 4% 0 0;
+    line-height: 1.3em;
+}
+.blog-04 img{
+    padding-top: 2%;
+}
+.blog-04 p{
+    float: right;
+    width: 90%;
+    padding: 1.8% 4% 0 0;
+    line-height: 1.3em;
+}
+/* last part */
+.arrow{
+    background: #8cb273;
+    float: right;
+    padding: 0 1.5%;
+    color: #fff;
+    font-size: 1.3em;
+}
+.widget{
+    margin-top: 3%;
+}
+.widget img{
+  padding-top: 2%; 
+    width: 100%;
+}
+.title-widget{
+    background-color: #f6eddc;
+    height: 2.813em;
+    padding: 1% 0 0 3%;
+    color: #948272;
+    text-align: center;
+}
+.title-widget span{
+    font-size: 1.813em;
+}
+.title-commet{
+    background-color: #f6eddc;
+    height: 2.813em;
+    padding: 1% 0 0 3%;
+    color: #948272;
+    text-align: center;
+}
+.title-commet span{
+    font-size: 1.813em;
+    padding-right: 23%;
+}
+.title-commet p{
+    padding-top: 3%;
+    width: 100%;
+    font-size: 0.8em;
+    line-height: 1.3em;
+    text-align: left;
+    color: #000;
+}
+.title-contact{
+    background-color: #f6eddc;
+    height: 2.813em;
+    padding: 1% 0 0 3%;
+    color: #948272;
+    text-align: center;
+}
+.title-contact a i{
+    margin:  0 auto;
+    padding: 12% 0 0 2%;
+    color: blue;
+}
+.title-contact span{
+    font-size: 1.813em;
+    padding-right: 15%;
+}
+.title-contact-2{
+    background-color: #f6eddc;
+    height: 2.813em;
+    padding: 1% 0 0 3%;
+    color: #948272;
+    text-align: center;
+}
+.title-contact-2 p{
+    padding-top: 7%;
+    color: #000;
+    text-align: left;
+}
+.title-contact-2 span{
+    font-size: 1.813em;
+    padding-right: 15%;
+}
